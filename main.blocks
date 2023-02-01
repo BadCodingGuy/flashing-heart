@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="snk,FL!L!B?{$:.e;^ZJ" x="369" y="-46"><statement name="HANDLER"><block type="device_show_leds" id="T.cyM0=3-O?/.FC(u5U:"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="playMelody" id="iI-w7n^9rGXeX{6y/{x7"><value name="melody"><shadow type="melody_editor" id="n_]/*85O7iiX+xOAzH2!"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="a3u;Y_yFss(qvtK.4{%|"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_start_melody" id="dL__f9*-AOvh.)UhOHi8"><field name="options">MelodyOptions.ForeverInBackground</field><value name="melody"><block type="device_builtin_melody" id="dt:v)SY#{?k#tGWPcZUH"><field name="melody">Melodies.Funk</field></block></value><next><block type="device_show_leds" id="cqDE1Z2W-{~h7xrNe(m}"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="cgmL|vzdF609dl;3!{KU" x="0" y="0"></block></xml>
